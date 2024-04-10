@@ -7,7 +7,7 @@ import heart from '../img/heart.png'
 
 const Header = () => {
   return (
-    <header>
+    <header className={style.header}>
       <div className={style.nav_top}>
         <div className={style.nav_top_left}>
           <a href='098 900 09 09' className={style.nav_top_a}>
@@ -53,10 +53,10 @@ const Header = () => {
             <input
               id='myInput'
               type='search'
-              value=''
+              // value=''
               className={style.search_input}
             />
-             <button type="submit" className={style.search_button} >
+            <button type="submit" className={style.search_button} >
             {/* <svg > */}
               <img src={serch}
           alt=""

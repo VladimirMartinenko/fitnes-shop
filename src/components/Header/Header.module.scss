@@ -1,3 +1,6 @@
+.header{
+  width: 1366px;
+}
 .nav_top{
   margin-top: 61px;
   height: 40px;
@@ -74,13 +77,14 @@
   width: 282px;
   height: 40px;
   border-radius: 15px;
-  /* box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); */
-  // transform: translate(0%, 0%);
+  // box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  // s
   background: #E8E8E8;
-  // transition: all 0.3s ease;
+  transition: all 0.3s ease;
 
   &.focus {
-    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+    // box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+    background-color: #E8E8E8;
   }
 }
 
@@ -89,18 +93,24 @@
   top: 10px;
   left: 38px;
   font-size: 14px;
-  background: none;
-  color: #5a6674;
+  background: #E8E8E8;
+  color: black;
   width: 195px;
   height: 20px;
   border: none;
   appearance: none;
   outline: none;
+  // background-color: #E8E8E8;
 
   // &::-webkit-search-cancel-button {
   //   appearance: none;
   // }
 }
+// .search_input:focus{
+//   background-color: #E8E8E8;
+//   color: #FFFFFF;
+//   background-clip: padding-box;
+// }
 .search_button{
   position: absolute;
   top: 9px;
