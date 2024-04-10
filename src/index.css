@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.swiper-button-prev-img{
+  position: unset !important;
+}
+.swiper-button-prev-img::after{
+  content: url('/src/components/img/Arrow\ 1.png') !important
+}
+.swiper-button-next-img{
+  position: unset !important;
+}
+.swiper-button-next-img::after{
+  content: url('/src/components/img/Arrow\ 2.png') !important
+}
+.swiper-button{
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+
+}
+.container{
+  position: absolute;
+  top:5px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+.swiper-pagination-correct{
+  position: unset !important;
+  width: unset !important;
+}
+.container-swiper{
+  margin-top: 71px;
+  position: unset !important;
+}
