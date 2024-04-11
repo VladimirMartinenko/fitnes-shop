@@ -1,7 +1,6 @@
 import React from 'react'
 import style from './Comment.module.scss'
 import Mask from '../img/Mask.png'
-import SlideNextButton from '../SliderNavButton/SliderNavButton'
 import left from '../img/Arrow 1.png'
 import right from '../img/Arrow 2.png'
 import starIcon from '../img/Icon.png'
