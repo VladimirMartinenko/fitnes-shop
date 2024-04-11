@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fitnes-shop/static/css/main.240291e1.css",
+    "main.js": "/fitnes-shop/static/js/main.be75d5ac.js",
+    "static/js/453.4517d0ed.chunk.js": "/fitnes-shop/static/js/453.4517d0ed.chunk.js",
+    "static/media/jpeg": "/fitnes-shop/static/media/f1eafcc65076de7a1d51bc0416146be1.f003ac1e9a0693639890.jpeg",
+    "static/media/Rectangle 6.png": "/fitnes-shop/static/media/Rectangle 6.c322b5a7295ff8cd0f61.png",
+    "static/media/Rectangle 4 (2).png": "/fitnes-shop/static/media/Rectangle 4 (2).094d4163e8b1647078d8.png",
+    "static/media/Rectangle 4 (1).png": "/fitnes-shop/static/media/Rectangle 4 (1).475e651316204ea623fb.png",
+    "static/media/Rectangle 4.png": "/fitnes-shop/static/media/Rectangle 4.183d3e48b86a23352c7e.png",
+    "static/media/24037.svg": "/fitnes-shop/static/media/24037.17b79845793c98547290b741136b55c3.svg",
+    "index.html": "/fitnes-shop/index.html",
+    "static/media/Vector.svg": "/fitnes-shop/static/media/Vector.34e4da3af8593caa2bf51e285f7e0d01.svg",
+    "main.240291e1.css.map": "/fitnes-shop/static/css/main.240291e1.css.map",
+    "main.be75d5ac.js.map": "/fitnes-shop/static/js/main.be75d5ac.js.map",
+    "453.4517d0ed.chunk.js.map": "/fitnes-shop/static/js/453.4517d0ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.240291e1.css",
+    "static/js/main.be75d5ac.js"
+  ]
+}
