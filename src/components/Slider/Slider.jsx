@@ -13,15 +13,15 @@ import 'swiper/css/navigation'
 
 const Slider = () => {
   return (
-    <>
+    <div className={style.container}>
       <Swiper
-       style={{
-        '--swiper-navigation-color': '#fff',
-        '--swiper-pagination-color': '#fff',
-        '--swiper-pagination-bullet-width':'20px',
-        '--swiper-pagination-bullet-height':'2px',
-        '--swiper-pagination-bullet-border-radius':'0px'
-      }}
+        style={{
+          '--swiper-navigation-color': '#fff',
+          '--swiper-pagination-color': '#fff',
+          '--swiper-pagination-bullet-width': '20px',
+          '--swiper-pagination-bullet-height': '2px',
+          '--swiper-pagination-bullet-border-radius': '0px'
+        }}
         cssMode={true}
         navigation={true}
         pagination={true}
@@ -36,17 +36,28 @@ const Slider = () => {
             <p className={style.text}>Швидше. Вище. Сильніше.</p>
             <p className={style.text2}>Разом із Nike</p>
           </div>
+          <div className={style.container_promotion}>
+            <div className={style.promotion}>
+              <p className={style.text_promotion}>Знижки до 40%</p>
+            </div>
+            <p className={style.text_promotion2}>Залишився лише тиждень</p>
+          </div>
         </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>
+          <img src={foto_main} className={style.img}></img>
+          <div className={style.container_text_main}>
+            <p className={style.text}>Швидше. Вище. Сильніше.</p>
+            <p className={style.text2}>Разом із Nike</p>
+          </div>
+          <div className={style.container_promotion}>
+            <div className={style.promotion}>
+              <p className={style.text_promotion}>Знижки до 40%</p>
+            </div>
+            <p className={style.text_promotion2}>Залишився лише тиждень</p>
+          </div>
+        </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   )
 }
 
